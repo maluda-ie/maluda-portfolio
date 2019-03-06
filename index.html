@@ -12,37 +12,122 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-      <a class="navbar-brand" href="#">M A L U D A</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">about</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">contact</a>
-          </li>
-        </ul>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">M A L U D A</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+        </div>
       </div>
     </nav>
+    <!--NAVBAR-->
     
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    
+    <!--LANDING PAGE IMAGE SLIDER-->
+    <div id="carouselExampleIndicators" class="carousel slide hidden-md-down" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active" style="background-image">
+           <img src="/assets/images/floating-floral.jpg" class="img-fluid" alt="floral pattern">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image">
+           <img src="/assets/images/Flower-Power.jpg" class="img-fluid" alt="floral pattern">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image">
+           <img src="/assets/images/Shape-Bits.jpg" class="img-fluid" alt="floral pattern">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
     
   </header>
    
-    
-  <section>
-    
-  </section>
-    
+ <section id="about">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-8 mx-auto">
+                 <h2 class="text-center text-uppercase">About</h2>
+                 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores voluptates iure ex, reiciendis id possimus, modi dolor repudiandae voluptate, sit quidem, autem ducimus. Quaerat illo, consequatur asperiores possimus. Beatae, ducimus.</span></p>
+             </div>
+         </div>
+     </div>
+     
+ </section> 
+ 
+ <!--PORTFOLIO-->
+    <div class="portfolio">
+        <h2 class="text-center text-uppercase">Portfolio</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                   <img src="/assets/images/brain-coral.png" class="img-fluid" alt="pattern">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="/assets/images/fruit.png" class="img-fluid" alt="pattern">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="/assets/images/leafy-tropical.png" class="img-fluid" alt="pattern">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="/assets/images/brain-coral.png" class="img-fluid" alt="pattern">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="/assets/images/fruit.png" class="img-fluid" alt="pattern">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="/assets/images/leafy-tropical.png" class="img-fluid" alt="pattern">
+                </div>
+            </div>
+        </div>  
+    </div>
+  
+
+ <section class="contact">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-center text-uppercase" >Contact</h2>
+              </div> 
+          </div> 
+      </div> 
+ </section> 
  
 
 
