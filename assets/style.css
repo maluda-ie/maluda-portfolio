@@ -1,3 +1,16 @@
+.footer {
+ justify-content: center;
+ display: block;
+}
+
+.fab {
+ padding: 0px 10px;
+ font-size: 1.2em;
+}
+ 
+
+
+/*
 .portfolio{
  margin: 4em 0;
  position: relative; 
@@ -9,5 +22,8 @@
 .portfolio img{
   width: 100%;
   margin: 1em;
-
 }
+
+
+
+
