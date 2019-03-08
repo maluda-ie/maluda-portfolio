@@ -1,3 +1,11 @@
+.hero-image {
+ margin-top: 50px;
+ size: 70%;
+}
+
+
+
+
 .footer {
  justify-content: center;
  display: block;
@@ -10,19 +18,8 @@
  
 
 
-/*
-.portfolio{
- margin: 4em 0;
- position: relative; 
-}
-.portfolio h1{
- color:#F97300;
- margin: 2em; 
-}
-.portfolio img{
-  width: 100%;
-  margin: 1em;
-}
+
+
 
 
 
