@@ -7,8 +7,21 @@
  padding-bottom: 10px;
 }
 
+.navbar-brand:hover {
+ color: #1A96A4!important;
+}
+
 .navbar .nav-link:hover {
- color: red !important;
+ color: #A27954 !important;
+}
+
+.navbar .nav-link {
+ font-size: 1.2em;
+}
+
+.navbar-brand {
+ font-size: 1.8em;
+ font-weight: bold;
 }
 
 .jumbotron {
