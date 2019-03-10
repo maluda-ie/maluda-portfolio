@@ -7,79 +7,47 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style.css" type="text/css" />
   <link rel="stylesheet" href="/assets/plugins/lightbox/ekko-lightbox.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <title>M A L U D A</title>
 </head>
-
-<body>
-  <header>
-
- <!--
- <div class="d-flex justify-content-center">
+ 
+<header> 
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="/assets/images/logo-bl.png" width="50%" height="50%" alt="Maluda Logo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">about</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
-              </li>
-            </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+      <a class="navbar-brand" href="#"><img src="/assets/images/logo.jpg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#home">home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#about">about</a>
+        <a class="nav-item nav-link" href="#portfolio">portfolio</a>
+        <a class="nav-item nav-link" href="#contact">contact</a>
       </div>
+    </div>
     </nav>
   </div>
-</div>   -->
-
-<div class="container">
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
-    <a class="navbar-brand" href="#">M A L U D A</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">about</a>
-      <a class="nav-item nav-link" href="#">portfolio</a>
-      <a class="nav-item nav-link" href="#">contact</a>
-    </div>
-  </div>
-  </nav>
-</div>
 </header>
    
    
 <!--LANDING PAGE IMAGE-->  
 <section>
-  <div class="container">
-    <div class="hero-image">
-       <img src="/assets/images/leaf-main.png" class="img-fluid" alt="leaf pattern">
+  <div class="jumbotron">
+    <div id="home" class="container-fluid" style="padding-top:70px;padding-bottom:30px">
     </div>
   </div>
-  <hr>
 </section>   
   
- <!--ABOUT-->    
- <section class="about">
+ <!--ABOUT--> 
+ <div id="about" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+ <section class="about-page">
      <div class="container">
          <div class="row">
              <div class="col-lg-8 mx-auto">
-                 <h2 class="text-center text-uppercase">About</h2>
+                 <h2 class="text-center text-uppercase">about</h2>
                  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                  Dolores voluptates iure ex, reiciendis id possimus, modi dolor repudiandae 
                  voluptate, sit quidem, autem ducimus. Quaerat illo, consequatur asperiores possimus. 
@@ -95,23 +63,24 @@
              </div>
          </div>
      </div>
+      </div>
      <hr>
  </section> 
  
  
  
   <!--PORTFOLIO-->
-  <section class="portfolio">
+  <div id="portfolio" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+  <section class="portfolio-page">
     <div class="container">
       <h2 class="text-center text-uppercase">Portfolio</h2>
       <p class="lead text-muted mb-5 text-center">A small selection of our most recent patterns.</p>
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-4">
-          <div class="card shadow border-0 h-100"><a href="/assets/images/shape-bits-lg.jpg" data-toggle="lightbox" data-title="title 1" class="text-dark"><img src="/assets/images/shape-bits.jpg" alt="pattern" class="card-img-top"></a><!--<a href="#"><img src="/assets/images/shape-bits.jpg" alt="pattern" class="card-img-top"></a>-->
+          <div class="card shadow border-0 h-100"><a href="/assets/images/shape-bits-lg.jpg" data-toggle="lightbox" data-title="Shape Bits Pattern" class="text-dark"><img src="/assets/images/shape-bits.jpg" alt="pattern" class="card-img-top"></a>
             <div class="card-body">
-              <h5 class="card-title"><!--<a href="/assets/images/shape-bits-lg.jpg" data-lightbox="shape-bits-lg.jpg"class="text-dark">Shape Bits Pattern</a>--></h5>
+              <h5 class="card-title">Shape Bits Pattern</h5>
               <p class="text-muted card-text">Pattern design for the Japanese childrenswear brand Kookie.</p>
-              <p class="card-text"><a href="#">Read more</a></p>
             </div>
           </div>
         </div>
@@ -214,6 +183,7 @@
             </div>
           </div>
         </div>
+       </div>
       </div>
     </div>
     <hr>
@@ -222,6 +192,7 @@
 
   <!--CONTACT-->
   <section>
+  <div id="contact" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
     <div class="container">
       <h2 class="text-center text-uppercase">Contact</h2>
       <p class="text-center">If you would like to view our full catalogue, please get in touch</p>
@@ -250,6 +221,7 @@
           </div>
       </form>
     </div>
+    </div>
 </section>
 
 
@@ -272,10 +244,17 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         <script type="text/javascript">
+        if (window.screen.width>750) {
           $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();
             });
+        } else{
+          $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+            });
+        }
+            
         </script>
 </body>
 

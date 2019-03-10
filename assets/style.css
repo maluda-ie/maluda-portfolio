@@ -1,9 +1,29 @@
-.hero-image {
- margin-top: 50px;
- size: 70%;
+.body {
+ position: relative;
+}
+
+.navbar-brand {
+ padding top: 10px;
+ padding-bottom: 10px;
+}
+
+.navbar .nav-link:hover {
+ color: red !important;
+}
+
+.jumbotron {
+ background-image: url(/assets/images/leaf-main.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 600px;
+ 
 }
 
 
+h2 {
+ font-family: 'Montserrat', sans-serif;
+ padding-bottom: 30px;
+}
 
 
 .footer {
