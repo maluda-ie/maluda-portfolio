@@ -7,12 +7,16 @@
  padding-bottom: 10px;
 }
 
+.navbar-brand {
+ color: #455761 !important;
+}
+
 .navbar-brand:hover {
  color: #1A96A4!important;
 }
 
 .navbar .nav-link:hover {
- color: #A27954 !important;
+ color: #C47BB4 !important;
 }
 
 .navbar .nav-link {
@@ -38,6 +42,14 @@ h2 {
  padding-bottom: 30px;
 }
 
+.btn-primary {
+ background-color: #5B7D98 !important;
+ border: none;
+}
+
+.btn-primary:hover {
+ background-color: #106DA0 !important;
+}
 
 .footer {
  justify-content: center;
