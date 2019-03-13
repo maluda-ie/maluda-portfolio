@@ -45,6 +45,16 @@ h2 {
  color: #455761 !important;
 }
 
+.lead {
+ font-size: 1em;
+}
+
+@media only screen and (min-width: 961px) {
+ .lead {
+  font-size: 1.3em;
+ }
+}
+
 /* FOOTER - SOCIAL MEDIA LINKS */
 .footer {
  justify-content: center;
