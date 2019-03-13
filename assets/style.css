@@ -2,8 +2,9 @@
  position: relative;
 }
 
+/* NAVBAR */
 .navbar-brand {
- padding top: 10px;
+ padding-top: 10px;
  padding-bottom: 10px;
 }
 
@@ -28,14 +29,15 @@
  font-weight: bold;
 }
 
+/* LANDING PAGE IMAGE */
 .jumbotron {
  background-image: url(/assets/images/leaf-main.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  height: 600px;
- 
 }
 
+/* PAGE HEADERS */
 
 h2 {
  font-family: 'Karla', sans-serif;
@@ -43,15 +45,7 @@ h2 {
  color: #455761 !important;
 }
 
-.btn-primary {
- background-color: #5B7D98 !important;
- border: none;
-}
-
-.btn-primary:hover {
- background-color: #106DA0 !important;
-}
-
+/* FOOTER - SOCIAL MEDIA LINKS */
 .footer {
  justify-content: center;
  display: block;
@@ -60,9 +54,12 @@ h2 {
 .fab {
  padding: 0px 10px;
  font-size: 1.2em;
+ color: #455761;
 }
  
-
+.fab:hover {
+ color: #C47BB4;
+}
 
 
 
