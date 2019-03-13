@@ -20,9 +20,9 @@ THe finished demo site can be found here:
 
 I relied heavily on Bootstrap during the development of this site. As a student, my aim was to become proficient 
 in this technology. I used a snippet of JavaScript to enable and disable the lightbox feature which
-I felt would enhance the UX on larger devices. I found this snippet here: [Lightbox for Bootstrap] (http://ashleydw.github.io/lightbox/).
+I felt would enhance the UX on larger devices. I found this snippet here: [Lightbox for Bootstrap](http://ashleydw.github.io/lightbox/).
 I used Bootstrap's scrollspy feature to enhance navigation particularly on larger devices. 
-I adapted the code from here: [Bootstrap Scrollspy Feature] (https://www.w3schools.com/booTsTrap/bootstrap_scrollspy.asp)
+I adapted the code from here: [Bootstrap Scrollspy Feature](https://www.w3schools.com/booTsTrap/bootstrap_scrollspy.asp)
 
 
 ## Future Features
