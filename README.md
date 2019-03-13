@@ -43,7 +43,7 @@ The primary aim of the site is to showcase Maluda's pattern design work to poten
 it was considered crucial to include about, portfolio and contact sections. The interaction design included Bootstrap's scrollspy 
 feature to enable ease of navigation on this one page site. Conventions were adhered to to ensure the site was intuitive and 
 easy to use. Social media links can be found in the footer of the site and the navbar is fixed to the top on large devices and
-in the form of a hamburder menu on smaller devices. The wireframes can be viewed here: [wireframes](website-wireframes.pdf)
+as a hamburger menu on smaller devices. The wireframes can be viewed here: [wireframes](/website-wireframes.pdf)
 
 Clean and minimal styling is used throughout the site to showcase the patterns.
 
