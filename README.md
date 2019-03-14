@@ -49,7 +49,7 @@ Wireframes can be found here: [mockups](wireframes/website-wireframes.pdf)
 3. ScrollSpy
    - This feature enhances navigation. 
 4. Landing Page Jumbotron
-   - This full screenimage provides the user with a feel for the aesthetic of the designer. It introduces the rest of the site. 
+   - This full screen image provides the user with a feel for the aesthetic of the designer. It introduces the rest of the site. 
 5. About
    - This page provides information about the designer and the studio. 
 6. Portfolio
@@ -130,9 +130,14 @@ not adequate. Safari should not be used with Windows.
 
 ## Deployment
 
-The site is deployed directly from the master branch on GitHub pages. After the site had been deployed, I realised that the landing page image 
-was now failing to load. It seemed that there was an issue with relative paths, eventually I found a solution to the issue by adding 
-the site's GitHub URL to the realtive path on the style.css file.
+The site is deployed directly from the master branch on GitHub pages. In order to publish the site, I selected the master branch 
+in settings. I pushed my commits from my Cloud9 workspace to GitHub throughout the project. The deployed site can be found here: 
+[Maluda](https://maluda-ie.github.io/maluda-portfolio/) 
+
+After the site had been deployed, I realised that the landing page image was now failing to load. 
+It seemed that there was an issue with relative paths, eventually I found a solution to the issue by adding 
+the site's GitHub URL to the realtive path on the style.css file. I would like to find a better solution to 
+this problem in the future. 
 
 ## Credits
 
