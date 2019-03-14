@@ -6,7 +6,7 @@ This website was the first I developed as part of Code Institute's Full Stack We
 aimed at promoting Maluda's pattern design work to potential clients. 
 
 The finished demo site can be found here: 
-[Maluda](https://ide.c9.io/maluda/maluda-portfolio) 
+[Maluda](https://maluda-ie.github.io/maluda-portfolio/) 
 
 
 ## UX
@@ -124,16 +124,7 @@ not adequate. Safari should not be used with Windows.
 
 ## Deployment
 
-The site is deployed on GitHub 
-
-<<<<<<< HEAD
-The primary aim of the site is to showcase Maluda's pattern design work to potential clients. With this in mind, for this version 
-it was considered crucial to include about, portfolio and contact sections. The interaction design included Bootstrap's scrollspy 
-feature to enable ease of navigation on this one page site. Conventions were adhered to to ensure the site was intuitive and 
-easy to use. Social media links can be found in the footer of the site and the navbar is fixed to the top on large devices and
-as a hamburger menu on smaller devices. The wireframes can be viewed here: [wireframes](/website-wireframes.pdf)
-=======
->>>>>>> readme file
+The site is deployed on GitHub pages.
 
 ## Credits
 
