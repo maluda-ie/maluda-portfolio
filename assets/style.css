@@ -30,8 +30,9 @@
 }
 
 /* LANDING PAGE IMAGE */
+/*used this hack to as image was not dispalying when deployed on github pages*/
 .jumbotron {
- background-image: url('https://maluda-ie.github.io/maluda-portfolio/assets/images/leaf-main.jpg');
+ background-image: url('https://maluda-ie.github.io/maluda-portfolio/assets/images/leaf-main.jpg'); 
  background-repeat: no-repeat;
  background-size: cover;
  height: 600px;

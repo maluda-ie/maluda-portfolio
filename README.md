@@ -16,8 +16,8 @@ use their phones to access the internet, a mobile-first approach was implemented
 works well on all devices in accordance with the brief. 
 
 The primary aim of the site is to showcase Maluda's pattern design work to potential clients. However, anyone with an interest in 
-pattern,illustration or design might also access the site. THerefore, with this in mind, for this version it was considered crucial 
-to include about, portfolio and contact sections. The about page provides information about the studioto potential clients and site 
+pattern, illustration or design might also access the site. Therefore, with this in mind, for this version it was considered crucial 
+to include about, portfolio and contact sections. The about page provides information about the studio to potential clients and site 
 visitors. The portfolio section which uses Bootstrap cards, is a clean and neatly organised selection of current and past projects. 
 The contact section allows users to get in touch with the studio easily.
 
@@ -27,7 +27,8 @@ As such, some user stories are as follows:
 2. As a potential client, I want to be able to find out about the designer/design studio.
 3. As a potential client, I want to view a selection of the designer's work in an accessible way.
 4. As a potential client, I want to be able to see past projects. 
-5. As a potential client, I want to be able to contact the designer easliy. 
+5. As a potential client, I want to be able to contact the designer easliy.
+6. As a potential client, I want to be able to connect with the designer via social media.
 
 The interaction design included Bootstrap's scrollspy feature to enable ease of navigation on this one page site. Conventions were 
 adhered to to ensure the site was intuitive and easy to use. Social media links can be found in the footer of the site. The navbar 
@@ -35,7 +36,7 @@ is fixed to the top on large devices and becomes a hamburger menu on smaller scr
 to showcase the patterns without background distractions. Hover effects on the nav and social media links mirror colours found on the
 landing page image to enhance consistency. 
 
-Wireframes can be found here: [mockups](/wireframes/website-wireframes.pdf)
+Wireframes can be found here: [mockups](wireframes/website-wireframes.pdf)
 
 
 ## Features 
@@ -112,7 +113,12 @@ To ensure that the potential client user stories were achieved, the following te
 1. Navigate to the contact page. 
 2. Ensure that the contact from is laid out correctly. 
 3. Ensure tha the user must fill in all fields before submitting the form.
-4. Repeat these steps in Chrome, Safari and Opera browsers, checking responsiveness in dev tools. 
+4. Repeat these steps in Chrome, Safari and Opera browsers.
+
+#### Footer
+1. Check the the social media links connect to the relevant pages.
+2. Ensure that these open in new tabs.
+3. Repeat these steps in Chrome, Safari and Opera browsers.
 
 During the development of the site I used Firefox and Chrome dev tools to debug any issues that arose. I also utilized these tools to check
 responsiveness as I implemented each feature. I tested the functionality and features of the site on Chrome, Firefox, Opera and Safari. The 
@@ -124,7 +130,9 @@ not adequate. Safari should not be used with Windows.
 
 ## Deployment
 
-The site is deployed on GitHub pages.
+The site is deployed directly from the master branch on GitHub pages. After the site had been deployed, I realised that the landing page image 
+was now failing to load. It seemed that there was an issue with relative paths, eventually I found a solution adding to the issue by adding 
+the site's GitHub URL to the realtive path on the style.css file.
 
 ## Credits
 
