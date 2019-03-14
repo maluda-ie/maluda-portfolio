@@ -19,7 +19,7 @@ The primary aim of the site is to showcase Maluda's pattern design work to poten
 pattern, illustration or design might also access the site. Therefore, with this in mind, for this version it was considered crucial 
 to include about, portfolio and contact sections. The about page provides information about the studio to potential clients and site 
 visitors. The portfolio section which uses Bootstrap cards, is a clean and neatly organised selection of current and past projects. 
-The contact section allows users to get in touch with the studio easily.
+The contact section allows users to get in touch with the studio easily, and the social media links enable the user to connect with Maluda.   
 
 As such, some user stories are as follows:
 
@@ -131,7 +131,7 @@ not adequate. Safari should not be used with Windows.
 ## Deployment
 
 The site is deployed directly from the master branch on GitHub pages. After the site had been deployed, I realised that the landing page image 
-was now failing to load. It seemed that there was an issue with relative paths, eventually I found a solution adding to the issue by adding 
+was now failing to load. It seemed that there was an issue with relative paths, eventually I found a solution to the issue by adding 
 the site's GitHub URL to the realtive path on the style.css file.
 
 ## Credits
