@@ -31,7 +31,7 @@
 
 /* LANDING PAGE IMAGE */
 .jumbotron {
- background-image: url(/assets/images/leaf-main.jpg);
+ background-image: url('assets/images/leaf-main.jpg'), url('/assets/images/leaf-main.jpg');
  background-repeat: no-repeat;
  background-size: cover;
  height: 600px;
