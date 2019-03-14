@@ -55,6 +55,11 @@ h2 {
  }
 }
 
+.row:before, .row:after {
+ display: inline-block !important;
+}
+
+
 /* FOOTER - SOCIAL MEDIA LINKS */
 .footer {
  justify-content: center;
